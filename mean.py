@@ -1,3 +1,5 @@
+import numpy as np
+
 def mean(alist):
     alist = np.array(alist)
     tot_items = alist.shape[0]
