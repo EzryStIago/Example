@@ -1,7 +1,6 @@
 import numpy as np
 
 def mean(alist):
-    alist = np.array(alist)
-    tot_items = alist.shape[0]
+    tot_items = len(alist)
     print(tot_items)
     return sum(alist)/tot_items
